@@ -8,5 +8,8 @@
 
 input {
     @apply border-2 px-4 py-1 rounded-md outline-none border-primary-400 w-full
-    hover:border-glaucous-400 focus:border-glaucous-400 invalid:border-imperial-400;
+    hover:border-glaucous-400 focus:border-glaucous-400 invalid:border-imperial-400
+    selection:bg-glaucous-300 disabled:bg-glaucous-50 disabled:border-glaucous-500
+    disabled:cursor-not-allowed invalid:text-imperial-500 invalid:hover:border-imperial-500
+    invalid:active:border-imperial-500 invalid:focus:border-imperial-500 invalid:selection:bg-imperial-100;
 }
