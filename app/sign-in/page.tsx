@@ -1,6 +1,6 @@
 'use client';
 
-import { zodResolver } from '@hookform/resolvers/zod';
+import { zodResolver } from '@hookform/resolvers/zod/dist/zod.js';
 import { At, Password } from '@phosphor-icons/react/dist/ssr';
 import { Controller, useForm } from 'react-hook-form';
 import { TLoginSchema, loginSchema, useLogin } from '@/features/auth';
